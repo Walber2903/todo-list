@@ -1,0 +1,27 @@
+.header {
+  width: 100%;
+  height: 12.5em;
+  background: var(--gray-700);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.header img {
+  height: 2.25em;
+  background: var(--gray-700);
+}
+
+.to {
+  color: var(--blue);
+  margin-left: 0.25em;
+  background: var(--gray-700);
+  font-size: 2.5em;
+}
+
+.do {
+  color: var(--purple);
+  background: var(--gray-700);
+  font-size: 2.5em;
+}
