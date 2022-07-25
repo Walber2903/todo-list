@@ -6,7 +6,7 @@ export function Empty() {
     <div className={styles.empty}>
       <img src={clipboard} className={styles.imgTask}/>
       <p className={styles.row1}>Você ainda não tem tarefas cadastradas</p>
-      <p className={styles.row2}>Crie tarefas e organize seus itens a fazer</p>
+      <span className={styles.row2}>Crie tarefas e organize seus itens a fazer</span>
     </div>
   )
 }
